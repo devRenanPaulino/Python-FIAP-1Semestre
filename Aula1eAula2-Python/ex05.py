@@ -1,9 +1,7 @@
 # Entrar via teclado com o valor de uma temperatura em graus Celsius, calcular e exibir sua temperatura equivalente em Fahrenheit.
- 
- print("Converção de Celsius para Fahrenheit: ")
+print("Conversão de Celsius para Fahrenheit: ")
 
- celsius = float(input("Digite a temperatura em celsius: "))
+celsius = float(input("Digite a temperatura em Celsius: "))
+fahrenheit = celsius * 9 / 5 + 32
 
- fahrenheit = celcius * 9 / 5 + 32
-
- print(f"{celsius}°C = {fahrenheit}°F")
+print(f"{celsius}°C = {fahrenheit}°F")
